@@ -1,0 +1,11 @@
+{application, paris_ex,
+ [
+  {description, "Plugin for paris allowing to create Elixir controllers"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
