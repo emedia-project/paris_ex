@@ -1,6 +1,6 @@
-# Paris.es
+# Paris.ex
 
-Paris.es is a plugin for [Paris](https://github.com/emedia-project/paris), allowing you to create controllers with Elixir.
+Paris.ex is a plugin for [Paris](https://github.com/emedia-project/paris), allowing you to create controllers with Elixir.
 
 ## Installation
 
