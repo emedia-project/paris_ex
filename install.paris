@@ -1,0 +1,9 @@
+{name, paris_ex}.
+{rebar, [
+  {add, [{plugins, [paris_ex_compiler]}]},
+  {remove, []}
+]}.
+{mv_args, [
+  {add, ["-pa $BASEDIR/deps/elixir/lib/*/ebin"]},
+  {remove, []}
+]}.
