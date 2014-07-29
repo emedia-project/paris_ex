@@ -6,7 +6,7 @@
 
 pre_compile(Config, _AppFile) ->
   BaseDir = rebar_config:get_xconf(Config, base_dir),
-  ExControllers = rebar_utils:find_files("src/controller", ".*\\.ex"),
+  ExControllers = rebar_utils:find_files("src/controllers", ".*\\.ex"),
   if 
     ExControllers =:= [] -> ok;
     true -> compile(BaseDir, ExControllers)
